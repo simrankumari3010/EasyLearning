@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(76, 88, 75);
+}
+li,a,button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color:hotpink;
+    text-decoration: none;
+    background-color: black;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: black;
+}
+.logo{
+    cursor: pointer;
+    padding: 0px;
+}
+.nav_links{
+    list-style: none;
+    font-size: xx-large;
+    background-color: black;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+    background-color: black;
+}
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+    background-color: black;
+    
+}
+.nav_links li a:hover{
+    color: blue;
+    
+}
+.nav_links li a:active{
+    color: rgb(175, 26, 26);
+    
+}
+button{
+    
+    padding: 9px 25px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 50px;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: rgb(11, 192, 20);
+}
+button:active{
+    background-color: rgb(222, 224, 208);
+}
